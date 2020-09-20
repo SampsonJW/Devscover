@@ -6,6 +6,7 @@ import { FetchData } from './components/FetchData';
 import { Counter } from './components/Counter';
 
 import './custom.css'
+import '@fortawesome/fontawesome-free/css/all.css'
 
 export default class App extends Component {
   static displayName = App.name;
