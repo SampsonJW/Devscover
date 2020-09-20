@@ -12,3 +12,12 @@ code {
   background-color: #1b6ec2;
   border-color: #1861ac;
 }
+
+.background-home {
+  background: rgb(241,250,238);
+  background: linear-gradient(135deg, rgba(241,250,238,1) 53%, rgba(168,218,220,1) 100%);
+}
+
+.background-searchbar {
+  background: #e63946;
+}
