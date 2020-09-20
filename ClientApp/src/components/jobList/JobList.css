@@ -1,0 +1,13 @@
+.jobs-body {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+}
+
+.job-content {
+  display: flex;
+  flex-direction: row;
+}
+.job-date {
+  margin-left: auto;
+}
