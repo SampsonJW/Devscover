@@ -5,13 +5,16 @@ import { Home } from './components/Home';
 import { FetchData } from './components/FetchData';
 import { Counter } from './components/Counter';
 
-import './custom.css'
 import '@fortawesome/fontawesome-free/css/all.css'
+
+import './custom.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
+
 
 export default class App extends Component {
   static displayName = App.name;
 
-  render () {
+  render() {
     return (
       <Layout>
         <Route exact path='/' component={Home} />
